@@ -1,0 +1,147 @@
+.ContactPage{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ContactSection{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+}
+.ConfirmSection{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: #fff;
+}
+.SuccessSection{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: #fff;
+    height: 35ex;
+}
+.CenterTextC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.InfoSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 25rem;
+}
+input{
+    width: 80%;
+    border-top: none;
+    border-right: none;
+    border-left:none ;
+    
+}
+:-ms-value{
+    color: red;
+}
+.primary-btn{
+    margin-left: 5ex;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2ex;
+}
+.TextDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    padding: 2ex;
+    height: 35ex;
+}
+.Lbl{
+    position: absolute;
+    font-size: 14px;
+    transform: translateY(1px);
+}
+.well{
+    width: 100%;
+    background-color: transparent;
+    padding-left: 5ex;
+    margin-top: 2ex;
+    margin-bottom: 2ex;
+}
+.message{
+   resize: both;
+}
+.select{
+    cursor: pointer;
+}
+.Locations{
+    list-style: none;
+    position: absolute;
+    background-color: rgba(228, 228, 228, 0.884);
+    z-index: 30;
+    top: 30%;
+    width: 20ex;
+    left: 18%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}.Locations li{
+    padding-top: 1ex;
+    padding-left: 1ex;
+    width: 100%;
+}
+.Locations li:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.Sticky{
+    position: sticky;
+    background-color: red;
+    width: 1ex;
+    z-index: 15;
+    transform: translateY(2.8ex);
+}
+.Months{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100%;
+}
+.Months input{
+    width: 11ex;
+    
+}
+#MnthLbl{
+display: none;
+}
+#shootLbl{
+    display: none;
+}
+.Monthfs{
+    list-style: none;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(20%);
+    overflow-y: scroll;
+    height: 15ex;
+    scroll-behavior: smooth;
+    display: none;
+}
+.Stickyi{
+    
+    background-color:transparent;
+}
+.Warning{
+    color:red;
+    font-size: 9pt;
+    display: none;
+}

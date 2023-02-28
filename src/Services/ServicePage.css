@@ -1,0 +1,62 @@
+.DropContainer{ 
+    flex-direction: column;
+    height: 70ex;
+    width:25vw;
+    font-size: 3.2vw;
+    background-color:darksalmon;
+}
+.DropContainer ol{
+    font-size: 1.5vw;
+    transform: translateX(-23%);
+    padding-top: 2vw;
+}
+title{
+    color: black;
+    width: 100%;
+    background-color: gold;
+}
+.DropContainer ol li{   
+    left: 0;
+}
+.DropContainer li:hover{
+    text-decoration: underline;
+}
+.ServiceData{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vw;
+    font-weight: lighter;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0 3rem 3rem;
+    padding-right: 3ex;
+    
+}
+.blackText{
+    color: blue;
+}
+.ServiceData div img{
+    width: 45vw;
+    height: 50vw;
+
+}
+.CP{
+    background-color: red;
+}
+.ServicePage{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    height: fit-content;
+}
+.DropDown{
+    display:inline-block;
+    font-family: monospace;
+    font-size: 1vw;
+    transition: 3s ease-in-out;
+    z-index: 5;
+}
+.DropDown:active{
+    background-color: red;
+}

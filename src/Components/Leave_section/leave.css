@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+input{
+    width: 52ex;
+    background-color: red;
+}
+button{
+    width: 15ex;
+    height: 1.8em;
+    margin: 3ex;
+}

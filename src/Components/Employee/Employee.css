@@ -1,0 +1,141 @@
+.blackBackground{
+   background-color: transparent;
+   color: black; 
+   height:auto; 
+   z-index: 1;
+}
+hr{
+    width: 80%;
+}
+.GHigh{
+    background-color: transparent;
+    width: 100%;
+    padding-left: 2ex;
+}
+.MPics{
+    font-family: monospace;
+    font-size: 3vw;
+}
+ul{
+    list-style: none;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ShadeBlock{
+ width: 90%;
+ height: auto;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-top-left-radius: 23px solid black;
+ flex-wrap: wrap;
+}
+.MiniPic{
+    width: 100%;
+    height: 35vw;
+    cursor: pointer;
+    z-index: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+#one{
+    color: thistle;
+}
+.ImageCatch{
+    width:25vw;
+    height: 35vw;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1.5;
+    margin: 0.4ex;  
+}
+.Xo{
+    display: flex;
+    right: 0;
+}
+
+.blueText{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline ;
+    font-style: italic;
+}
+.ZoomBox{
+    background-color:transparent;
+    position: absolute;
+    z-index: 407;
+    width: 95%;
+    height: 40ex;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.ZoomedPic1{
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    background-color: black; 
+}
+.ZoomedPic1 img{
+    width: 100%;
+    height: 65vw;
+    object-fit:contain ;
+}
+
+.flow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.SNextBtn{
+    color: black;
+    border-top: none;
+    border-left: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    width: 19vw;
+    margin-right: 5vw;
+}
+.Secondary-btn{
+    color: black;
+    border-color: transparent;
+}
+.Texted{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 4vw;
+}
+.Dimond{
+background-color: #f1158e;
+width: 35vw;
+height: 35vw;
+transform: rotate(45deg) translateX(50%);
+opacity: 0.2;
+z-index: -10;
+position: absolute;
+}
+.D2{
+    transform: rotate(0deg) translateX(60%) translateY(23%);
+    opacity: 0.2;
+}
+.BookCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4ex;
+}
+.SecondInnerCard{
+
+    font-family:  sans-serif;
+    font-style: oblique;
+}

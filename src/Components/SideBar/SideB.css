@@ -1,0 +1,90 @@
+@media (max-width:609px) {
+   .NavList{
+   list-style: none;  
+   width:15rem;
+   position: fixed;
+   z-index: 90;
+   background-color: black ;
+   color: white;
+   opacity: 0.7;
+   height: 26rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 2pt;
+   top: 21pt;
+   font-size: 5vw;
+   font-family: cursive;
+   right: 0;
+}
+#MenuIcon{
+   width: 25pt;
+   position: absolute;
+   right: 2ex;
+   top:1ex;
+   cursor: pointer;
+   display: inline-block;
+}
+a{
+   text-decoration: none;
+   color:white;
+}
+.NavList2{
+   display: none;
+}
+}
+
+@media (min-width:610px) {
+  
+     .NavList2{
+       position: absolute;
+       right: 2pt;
+       top: -5pt;
+       padding: 10pt;
+       background-color: transparent;
+       height: auto;
+       font-size: 1.7ex;
+       width: 23rem;
+       display:flex;
+       justify-content: space-between;
+     } 
+     #MenuIcon{
+      display: none;
+   }
+   a{
+      text-decoration: none;
+   }
+   .NavList2 li:hover{
+      text-decoration: underline red;
+    }
+}
+
+
+
+.NavList li:hover{
+  text-decoration: underline red;
+}
+.white{
+   background-color: #fff;
+}
+#NavList{
+visibility: visible;
+}
+.NavBar{
+   display: inline-block;
+   color: white;
+  height: 2ex;
+   z-index: 3;
+}
+
+
+li{
+   cursor: pointer;
+}
+u{
+   text-decoration: none;
+}
+#Icon{
+   width: 55pt;
+}

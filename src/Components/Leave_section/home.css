@@ -1,0 +1,22 @@
+
+#Background{
+    
+    
+    height: auto;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+  
+}
+.WelcomeDisplay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+#MoSnaps_logo{
+    width: 100%;
+    height: 15rem;
+    border-radius: 1px;
+    opacity: 1;
+}
