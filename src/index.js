@@ -17,7 +17,7 @@ const Main =()=>{
      <Router>
      <SideB/>
        <Routes>
-          <Route exact path="/" element={<Homep/>}/>
+          <Route exact path="/hone" element={<Homep/>}/>
           <Route exact path="/about" element={<About/>}/>
           <Route exact path="/contact" element={<ContactPage/>}/>
           <Route exact path="/service" element={<ServicePage/>}/>
